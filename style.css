@@ -15,7 +15,7 @@ body {
     color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 80px 20px;
+    padding: 20px 0px 80px 0px;
     gap: 80px;
 }
 
@@ -88,6 +88,30 @@ h2 {
     border: 0;
 }
 
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 80px 20px;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
 .contact {
     background-color: #3882f6;
 }
@@ -111,7 +135,8 @@ h2 {
 }
 
 .img {
-    background-color: lightcoral;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
     width: 150px;
     height: 150px;
 }
